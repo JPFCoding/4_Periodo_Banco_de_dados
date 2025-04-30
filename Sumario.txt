@@ -1,0 +1,95 @@
+
+---------------------------
+*********
+---------------------------
+exemplo
+
+
+---------------------------
+
+
+---------------------------
+DIA1
+---------------------------
+PowerPoints sobre tipos de 
+arquitetura mais um
+ exercício de estudo de 
+caso(dissecar um software).
+---------------------------
+---------------------------
+Dia2
+---------------------------
+Slide sobre Arquitetura de 
+componentes, exercício 
+construindo um banco de 
+dados e rodando os dados
+pelo excel.
+---------------------------
+---------------------------
+---------------------------
+Dia3
+---------------------------
+Criação de uma tabela no 
+modo visual pelo SQLServer,
+cardinalidade
+---------------------------
+---------------------------
+---------------------------
+Dia4
+---------------------------
+Normalização.Aborda as regras
+ de criação de um banco de
+ dados seguindo as três
+ formas normais., a aula 
+toda isso, chamamos de
+ normalização. 
+---------------------------
+---------------------------
+---------------------------
+Dia5
+---------------------------
+Exercícios tornando o mo-
+delo conceitual para 
+modelo lógico.
+---------------------------
+------------------------------
+Dia6
+------------------------------
+Praticando as formas de norma
+lização do banco de dados.
+------------------------------
+---------------------------
+Dia7
+---------------------------
+Comandos inicuais de SQL, 
+principalmente CREATE e 
+ALTER TABLE, isso é impor
+tante para inserção de 
+código SQL e criação
+do banco a partir da 
+aplicação.
+---------------------------
+---------------------------
+Dia9
+---------------------------
+Álgebra relacional, comandos
+de linguadem DML.
+---------------------------
+---------------------------
+Dia10
+---------------------------
+Contem uma query, sobre a 
+manipulação de dados usando
+o SQL Query.
+Importante saber para que
+o app crie o próprio banco
+e as tabelas via SQLQuery.
+*Baixar do teams os slides
+correspondentes.
+*Subir no GitHub.
+---------------------------
+
+
+
+
+
