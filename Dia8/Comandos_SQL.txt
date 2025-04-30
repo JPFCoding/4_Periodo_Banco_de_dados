@@ -1,0 +1,30 @@
+1.Criando chave extrangeira:
+ ALTER TABLE -NOME DA TABELA QUE VAI A FK-
+ ADD CONSTRAINT -NOME DA RELAÇÃO- FOREIGN KEY (-NOME DA 
+ COLUNA QUE SERÁ A FK) REFERENCES -TABELA COM CHAVE PRI
+ MÁRIA(-NOME DA COLUNA QUE TEM A PK)
+
+2.Criando uma chave extrangeira:
+ EXEMPLO: 
+ CREATE TABLE CLIENTE(
+ ID INT NOT NULL,--coluna que será a pk
+ NOME_COMPLETO NVARCHAR(100),
+ ID_ENDERECO INT, 
+ ID_TELEFONE INT,
+ ID_EMAIL INT,
+ DATA_NASCIMENTO DATE
+ PRIMARY KEY(ID) --Aqui está a referencia da coluna que 
+ --será a pk.
+  )
+3.Alterar uma coluna para ser chave primária:
+
+ ALTER TABLE nome_da_tabela
+ ADD CONSTRAINT nome_da_chave_primaria PRIMARY KEY
+ (nome_da_coluna);
+4.Como saber se a coluna se tornou enfim uma primary 
+key no SQLserver
+
+ SELECT COLUMN_NAME
+ FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE
+ WHERE TABLE_NAME = 'Clientes' AND CONSTRAINT_NAME LIKE
+ 'PK_%';
